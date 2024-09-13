@@ -265,6 +265,11 @@ a:hover {
   width: 100%;
 }
 
+.pub-wrapper .figure video {
+  max-width: 240px;
+  width: 100%;
+}
+
 @media (max-width: 767.98px) {
   .pub-wrapper .figure {
     margin-bottom: 10px;
