@@ -110,7 +110,7 @@ a:hover {
 
 .representative {
   background-color: var(--very-light-orange);
-  border-radius: 2px;
+  border-radius: 1px;
 }
 
 @media (max-width: 767.98px) {
