@@ -16,18 +16,18 @@ var hoverImages = [
 var profile_credit = document.getElementById("profile-credit");
 var profile = document.getElementById("profile");
 
-function profile_enter() {
-  profile.src = hoverImages[counter];
-  counter = (counter + 1) % hoverImages.length;
-}
+// function profile_enter() {
+//   profile.src = hoverImages[counter];
+//   counter = (counter + 1) % hoverImages.length;
+// }
 
-function profile_leave() {
-  profile.src = "assets/profile/myself.webp";
-}
+// function profile_leave() {
+//   profile.src = "assets/profile/myself.webp";
+// }
 
-profile_credit.addEventListener("mouseenter", profile_enter);
-profile_credit.addEventListener("mouseleave", profile_leave);
-profile_leave();
+// profile_credit.addEventListener("mouseenter", profile_enter);
+// profile_credit.addEventListener("mouseleave", profile_leave);
+// profile_leave();
 
 // Footer year
 
